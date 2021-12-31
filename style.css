@@ -181,7 +181,7 @@ html {
 .content > .right {
   width: 40%;
 }
-#contactCard {
+.contactCard {
   line-height: 0.2;
   margin-bottom: 60px;
 }
@@ -190,6 +190,7 @@ html {
   font-size: 20px;
 }
 .contactCard > p {
+  font-size: 18px;
   font-family: "TTBarels";
   color: white;
 }
