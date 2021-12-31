@@ -189,8 +189,9 @@ html {
   color: var(--lightBlue);
   font-size: 20px;
 }
-.contactCard > p {
+.contactCard > .desc {
   font-size: 18px;
   font-family: "TTBarels";
   color: white;
+  text-decoration: none;
 }
