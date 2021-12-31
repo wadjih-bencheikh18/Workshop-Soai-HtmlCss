@@ -1,0 +1,195 @@
+/*  Init  */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "OpenSauceOneRegular";
+}
+:root {
+  --darkBlue: #004aad;
+  --lightBlue: #93d2f6;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/*  Hero section */
+
+.hero {
+  color: white;
+  height: 100%;
+  overflow: auto;
+  background-color: var(--darkBlue);
+}
+.hero > .left {
+  margin: 90px 150px;
+  font-size: 90px;
+  width: 55%;
+  font-weight: bolder;
+  line-height: 1.2;
+}
+.hero > .right {
+  color: var(--lightBlue);
+  margin-top: -50px;
+  margin-right: 200px;
+  line-height: 0.3;
+}
+.hero > .right > h2 {
+  font-size: 40px;
+}
+.hero > .right > h3 {
+  font-size: 25px;
+  text-align: end;
+  font-family: "TTBarels";
+}
+
+/*  Know me section */
+
+.knowMe {
+  padding: 200px 50px;
+  color: white;
+  overflow: auto;
+  background-color: var(--darkBlue);
+}
+.knowMe > .left {
+  width: 30%;
+  margin-left: 5%;
+  height: 400px;
+  overflow: hidden;
+}
+.knowMe > .left img {
+  width: 400px;
+  margin: 0 0 0 -40px;
+}
+.knowMe > .right {
+  width: 60%;
+  display: flex;
+  margin-top: 70px;
+  align-items: flex-start;
+}
+.knowMe > .right > .title {
+  color: var(--lightBlue);
+  font-size: 25px;
+  width: 30%;
+  line-height: 3;
+}
+
+.knowMe > .right > .desc {
+  font-size: 30px;
+  font-family: "TTBarels";
+  width: 50%;
+}
+.services {
+  height: 100%;
+  color: var(--darkBlue);
+  overflow: auto;
+}
+.bigTitle {
+  font-size: 55px;
+  margin: 100px 150px 0;
+}
+
+/*  Services section */
+
+.services > ul {
+  width: 60%;
+}
+.service {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.service > * {
+  margin-top: 0;
+}
+.service > h3 {
+  font-weight: 900;
+  font-size: x-large;
+  margin-right: 50px;
+}
+.service > p {
+  font-size: 30px;
+  font-family: "TTBarels";
+  width: 55%;
+}
+
+/*  Work section */
+
+.work > h1 {
+  color: var(--darkBlue);
+  text-align: center;
+  margin: 80px 0;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 80px 100px;
+}
+.card {
+  color: white;
+  background-color: var(--darkBlue);
+  flex: 0 1 26%;
+}
+.cardImg {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.cardImg > img {
+  width: 100%;
+  margin: -120px 0 0 0;
+}
+.cardDesc {
+  margin: 15px;
+}
+
+/*  Contact section */
+
+.contact {
+  overflow: auto;
+  background-color: var(--darkBlue);
+  height: 100%;
+}
+.contact > .title {
+  color: var(--lightBlue);
+  margin: 100px 200px 100px;
+  line-height: 0.2;
+}
+.contact > .title > h2 {
+  font-size: 45px;
+}
+.contact > .title > P {
+  font-size: 30px;
+  font-family: "TTBarels";
+}
+.content {
+  margin: 150px 200px 100px;
+}
+.content > .left {
+  color: var(--lightBlue);
+  margin-top: 5px;
+  font-size: 80px;
+}
+.content > .right {
+  width: 40%;
+}
+.contactCard {
+  line-height: 0.2;
+  margin-bottom: 60px;
+}
+.contactCard > h4 {
+  color: var(--lightBlue);
+  font-size: 20px;
+}
+.contactCard > p {
+  font-family: "TTBarels";
+  color: white;
+}
